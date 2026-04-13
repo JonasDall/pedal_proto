@@ -409,129 +409,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -687,6 +564,213 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1043,6 +1127,130 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1569,6 +1777,12 @@
 		(uuid "3b841862-3bce-4825-a9b2-32c60536dda0")
 	)
 	(junction
+		(at 138.43 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fa8924e-72cf-4b67-9a78-7a4bb5d082d1")
+	)
+	(junction
 		(at 86.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1611,6 +1825,12 @@
 		(uuid "6d7344d3-0234-4cab-a123-5015495cea26")
 	)
 	(junction
+		(at 245.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c136dff-604b-4c9e-afaa-7fa60772cb22")
+	)
+	(junction
 		(at 199.39 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1647,6 +1867,12 @@
 		(uuid "9cc470ec-df3d-462f-b5b2-e724cb6e9c3d")
 	)
 	(junction
+		(at 68.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7bd0e7-3de8-4d4c-a465-f291b75fc532")
+	)
+	(junction
 		(at 181.61 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1657,6 +1883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b82fc467-42e1-4d6e-a231-13eeaff2b95c")
+	)
+	(junction
+		(at 208.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd54837c-0a23-4f4b-9c2b-a98c273f0a41")
 	)
 	(junction
 		(at 118.11 100.33)
@@ -1682,6 +1914,12 @@
 		(color 0 0 0 0)
 		(uuid "efced291-7df1-446f-9755-ac4e02d6a2b0")
 	)
+	(junction
+		(at 208.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f745beea-dac3-4228-a41d-aac1319824b2")
+	)
 	(wire
 		(pts
 			(xy 80.01 66.04) (xy 81.28 66.04)
@@ -1701,6 +1939,16 @@
 			(type default)
 		)
 		(uuid "04213efe-26ad-483d-a23c-81739d9b1706")
+	)
+	(wire
+		(pts
+			(xy 210.82 63.5) (xy 210.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043b334c-c6dc-4e85-b2e9-17d68e710046")
 	)
 	(wire
 		(pts
@@ -1744,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 62.23) (xy 242.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09d3c9ec-2192-4452-8264-508b34ca4386")
-	)
-	(wire
-		(pts
 			(xy 149.86 66.04) (xy 149.86 88.9)
 		)
 		(stroke
@@ -1764,13 +2002,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 245.11 100.33)
+			(xy 245.11 62.23) (xy 245.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f566a12-5970-4f8a-904f-e5277f98e38f")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bcbc5e-8d98-4e11-9570-c05d67b2f11b")
 	)
 	(wire
 		(pts
@@ -1791,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "1b3c2751-5472-4923-9e80-9435e6e13b49")
+	)
+	(wire
+		(pts
+			(xy 245.11 72.39) (xy 245.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c28e4a8-daf5-4fb9-b062-c99b09f8183d")
 	)
 	(wire
 		(pts
@@ -1934,6 +2192,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 39.37) (xy 233.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ee1053-88ca-4c87-8d1c-fd972c732cbf")
+	)
+	(wire
+		(pts
 			(xy 156.21 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -1984,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 62.23) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502d2796-7396-456f-a361-f18b67adca6f")
+	)
+	(wire
+		(pts
 			(xy 114.3 59.69) (xy 114.3 66.04)
 		)
 		(stroke
@@ -1991,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "5043baa5-6c8f-4e03-b1b0-3ea3e6e46aa2")
+	)
+	(wire
+		(pts
+			(xy 248.92 39.37) (xy 248.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5091426e-be05-4556-a43a-d7faf5e995e1")
 	)
 	(wire
 		(pts
@@ -2034,6 +2322,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 44.45) (xy 228.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2e2f3d-5fa2-4469-9b0d-bb71c260f521")
+	)
+	(wire
+		(pts
 			(xy 190.5 60.96) (xy 190.5 66.04)
 		)
 		(stroke
@@ -2051,6 +2349,26 @@
 			(type default)
 		)
 		(uuid "5e7f9293-f3ec-4e84-8ad4-6e6b16a8946b")
+	)
+	(wire
+		(pts
+			(xy 234.95 66.04) (xy 234.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64afc8b2-8373-4cfb-9392-c9ea2e6389d1")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657c81b4-f91e-40f5-a288-00ea4e5401ac")
 	)
 	(wire
 		(pts
@@ -2154,16 +2472,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 246.38 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7902bf72-c924-4b04-8609-95252c542589")
-	)
-	(wire
-		(pts
 			(xy 196.85 53.34) (xy 196.85 134.62)
 		)
 		(stroke
@@ -2264,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 64.77) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d7c008-a7b3-4c35-8f3e-9cebbf76022e")
+	)
+	(wire
+		(pts
 			(xy 114.3 66.04) (xy 115.57 66.04)
 		)
 		(stroke
@@ -2321,6 +2639,16 @@
 			(type default)
 		)
 		(uuid "9c1cdf3c-dedc-42fc-bbe9-048a65426214")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c821739-47f9-4b1d-a070-1c9fd98bcb0e")
 	)
 	(wire
 		(pts
@@ -2384,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 55.88) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9159f4-402a-495f-8469-af7433fa22c2")
+	)
+	(wire
+		(pts
 			(xy 121.92 66.04) (xy 120.65 66.04)
 		)
 		(stroke
@@ -2431,6 +2769,26 @@
 			(type default)
 		)
 		(uuid "bbe534b6-29f3-43d4-bbb5-bce5a1d1ff89")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5db9ed-69b8-4c60-89dc-4564c882045d")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0723490-61ef-41f5-a211-66d0742ddef6")
 	)
 	(wire
 		(pts
@@ -2524,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 66.04) (xy 234.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45fa95b-26c2-49dc-9638-241ee031835e")
+	)
+	(wire
+		(pts
 			(xy 152.4 100.33) (xy 152.4 102.87)
 		)
 		(stroke
@@ -2561,6 +2929,26 @@
 			(type default)
 		)
 		(uuid "e6427e5f-7dcf-46d6-9797-140103e800d4")
+	)
+	(wire
+		(pts
+			(xy 208.28 63.5) (xy 210.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bae4b1-3694-4416-8072-fe80d997317e")
+	)
+	(wire
+		(pts
+			(xy 242.57 72.39) (xy 245.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9880493-d086-43ed-9f5c-e8398f5f1068")
 	)
 	(wire
 		(pts
@@ -2614,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 62.23) (xy 242.57 66.04)
+			(xy 231.14 66.04) (xy 231.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2631,6 +3019,26 @@
 			(type default)
 		)
 		(uuid "f0233d93-17d4-4fd1-b6fd-f255203edc50")
+	)
+	(wire
+		(pts
+			(xy 245.11 62.23) (xy 248.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f479ba-40c6-4abb-ad64-05519dff3ab4")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.77) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5716d7f-fbba-4567-84f2-d5450da11c39")
 	)
 	(wire
 		(pts
@@ -2684,16 +3092,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 107.95 67.31 0)
+		(at 210.82 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a05f98c-2694-478b-80c3-dd679bd8972c")
+		(uuid "0756ab5b-3334-4850-ae44-ec996f837602")
 		(property "Reference" "#GND05"
-			(at 107.95 72.39 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +3110,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 107.95 64.77 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +3118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 67.31 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 107.95 77.47 0)
+			(at 210.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +3136,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 107.95 74.93 0)
+			(at 210.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +3145,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bf82720-ab54-428d-b801-cb2a73795bff")
+			(uuid "b9e70ed8-9c60-4dc6-92b5-6c984db812ca")
 		)
 		(instances
 			(project "pedal_proto_pcb"
@@ -2810,6 +3218,146 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 240.03 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102df78f-8886-49a8-bf57-57a6725cde2e")
+		(property "Reference" "SW3"
+			(at 245.11 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 245.11 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Additional_Switches:SPDT"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 240.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5b8226-4c49-43bd-8837-f53a69e9c7c9")
+		)
+		(pin "2"
+			(uuid "c00d296b-7721-440d-8145-9aa1f0ed7c4f")
+		)
+		(pin "3"
+			(uuid "09a8d8a5-1c85-4a1a-a5ca-dcb32c081142")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 133.35 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13032c68-251f-4e9c-bd85-065b52746b3c")
+		(property "Reference" "J2"
+			(at 133.985 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.112 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc845ba-1913-4b73-964f-5696b701e8ba")
+		)
+		(pin "2"
+			(uuid "640588f2-4ecd-4065-8d33-c498bc715128")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2945,72 +3493,6 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 40.64 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dd0d147-f25e-45b0-b24f-d6e75a97760d")
-		(property "Reference" "#GND03"
-			(at 40.64 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 40.64 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 40.64 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f7b450-2af4-4004-808d-00c135ec4136")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -3360,73 +3842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 107.95 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e7e0f70-bf8f-4308-8a3a-5deeb4ed20c2")
-		(property "Reference" "J3"
-			(at 109.22 61.5949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 64.1349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 107.95 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 107.95 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9acf4e8-37f8-4a15-926c-5fa62ba97d7f")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 207.01 137.16 0)
 		(mirror x)
@@ -3699,6 +4114,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 71.12 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42fab940-bbb9-4be8-a4fc-e02b10042553")
+		(property "Reference" "#GND03"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75882757-a34d-44cd-acec-7b26daf7289e")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 226.06 91.44 0)
 		(mirror x)
@@ -3828,6 +4309,153 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 237.49 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49d2efde-dc8e-4609-947b-b34be8b64c4a")
+		(property "Reference" "D2"
+			(at 237.744 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.744 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D4.0mm"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac633ab2-480c-4f80-b5a1-d01d82e177a9")
+		)
+		(pin "1"
+			(uuid "5e9c38c0-4a6b-4c71-9b3e-ab4b03ae75b6")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 203.2 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a01ed63-2e97-4830-8b18-869d6c8a9271")
+		(property "Reference" "J4"
+			(at 203.835 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 203.835 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e5adbf-a637-4bbb-b27b-072fb705c319")
+		)
+		(pin "2"
+			(uuid "41c9a81e-db26-4d35-b3fa-f20ff56c6e08")
+		)
+		(pin "3"
+			(uuid "0059715b-5cee-4ce1-9f14-017e3ffdde24")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4034,72 +4662,6 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 72.39 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54d88ce7-1bb4-44d3-89fc-287bec649d3b")
-		(property "Reference" "#GND04"
-			(at 72.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 72.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eba96b6-230b-4ded-992e-d2c4afb69666")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -4374,73 +4936,6 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 140.97 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6029ae4a-ad51-47d1-a832-319fbc7080fd")
-		(property "Reference" "J4"
-			(at 142.24 60.3249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 62.8649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 140.97 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 140.97 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c381c60-0aca-432c-ac88-8e3ac20d2f26")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4783,35 +5278,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 208.28 58.42 90)
+		(lib_id "Device:R")
+		(at 245.11 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "992a892f-00b2-46be-b8a2-32b94f93d310")
-		(property "Reference" "J37"
-			(at 209.55 57.7849 90)
+		(uuid "910fdc8a-736b-4d44-b5b5-127c7b1e1bfd")
+		(property "Reference" "R1"
+			(at 245.11 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 209.55 60.3249 90)
+		(property "Value" "R"
+			(at 245.11 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 208.28 58.42 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 245.11 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 58.42 0)
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,8 +5321,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 208.28 58.42 0)
+		(property "Description" "Resistor"
+			(at 245.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "245e2573-7aff-49d2-a02a-86cdf989a627")
+		)
+		(pin "1"
+			(uuid "dbc8ba31-feaf-4dab-9f71-00011cdfadd2")
+		)
+		(instances
+			(project "pedal_proto_pcb"
+				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 140.97 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "944b5833-f5e0-4306-bf76-a3c91d0fb697")
+		(property "Reference" "#GND04"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 140.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,12 +5400,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "106b9822-476d-4da9-9266-2015f262fffb")
+			(uuid "4d770ee0-ae8a-4c23-b092-25b1801c4344")
 		)
 		(instances
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J37")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -5078,35 +5640,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 173.99 58.42 90)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 63.5 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adf6a0f7-f1d5-49b0-bc9e-8d8585bb8c55")
-		(property "Reference" "J8"
-			(at 175.26 57.7849 90)
+		(uuid "b26c3392-48d6-420d-94cf-1d97d191b835")
+		(property "Reference" "J1"
+			(at 64.135 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 60.3249 90)
+			(at 64.262 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 173.99 58.42 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 58.42 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,8 +5682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 173.99 58.42 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,12 +5692,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ea0dc15-0461-4d03-acf6-bc6f70a65dee")
+			(uuid "45c714c8-7732-436d-90b7-059d5c98cce8")
+		)
+		(pin "2"
+			(uuid "b2404b01-0789-467e-b4d3-873d6ba307ac")
 		)
 		(instances
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5481,16 +6043,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 140.97 66.04 0)
+		(at 228.6 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c25ad14f-6613-4d06-90a2-719936af8c56")
-		(property "Reference" "#GND06"
-			(at 140.97 71.12 0)
+		(uuid "c05ddf76-ce2d-432b-aa65-b023527ebf92")
+		(property "Reference" "#GND011"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +6061,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 140.97 63.5 0)
+			(at 228.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 66.04 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +6078,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 140.97 76.2 0)
+			(at 228.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +6087,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 140.97 73.66 0)
+			(at 228.6 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,12 +6096,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9681f5d-58f8-4e78-8bfd-84aedf3462b9")
+			(uuid "3e5dc26f-c019-44b9-9a10-70b006e54b76")
 		)
 		(instances
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "#GND06")
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -5547,7 +6109,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 242.57 66.04 0)
+		(at 231.14 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5556,7 +6118,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4fc048f-4755-475d-896e-a3e65173fb72")
 		(property "Reference" "#GND01"
-			(at 242.57 71.12 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +6127,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 242.57 63.5 0)
+			(at 231.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 66.04 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +6144,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 242.57 76.2 0)
+			(at 231.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +6153,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 242.57 73.66 0)
+			(at 231.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +6175,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 243.84 54.61 270)
+		(at 237.49 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5621,7 +6183,7 @@
 		(dnp no)
 		(uuid "c67319c9-d38a-45fe-bd92-a62ad0c31473")
 		(property "Reference" "J5"
-			(at 243.078 46.228 90)
+			(at 236.728 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +6192,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 239.776 48.26 90)
+			(at 233.426 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Additional_Connectors:Barrel_Plug_5.5mmx2.1mm"
-			(at 242.824 55.88 0)
+			(at 236.474 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.824 55.88 0)
+			(at 236.474 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +6219,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 243.84 54.61 0)
+			(at 237.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,73 +6305,6 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 40.64 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de113d62-6692-4a63-b239-4de72f5a7dc4")
-		(property "Reference" "J1"
-			(at 41.91 61.5949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 64.1349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 40.64 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 40.64 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ccf7199-0e4d-46cc-9205-307fe0bc23f9")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6097,139 +6592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 208.28 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb662ca1-3be1-4740-9b8b-f76fbf37045c")
-		(property "Reference" "#GND010"
-			(at 208.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 208.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92e70697-2f82-49f1-8b5c-b28325a14f8e")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 72.39 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd6b0b2-da5c-4f5b-aa62-bbc365e16edd")
-		(property "Reference" "J2"
-			(at 73.66 60.3249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 62.8649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6165eed7-3113-4331-bbfe-f135b427c042")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 110.49 91.44 180)
 		(unit 1)
@@ -6291,72 +6653,6 @@
 			(project "pedal_proto_pcb"
 				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 173.99 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f620e58c-4fe4-44fe-8107-cf9ef2db37ec")
-		(property "Reference" "#GND07"
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 173.99 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 173.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf98b388-9dda-4097-ad95-51c1d0eedc8f")
-		)
-		(instances
-			(project "pedal_proto_pcb"
-				(path "/182b65b6-811d-4793-bec6-5ed94fb57120"
-					(reference "#GND07")
 					(unit 1)
 				)
 			)
